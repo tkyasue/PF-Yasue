@@ -1,0 +1,56 @@
+
+@import 'vars';
+@import 'galeria';
+
+h1{
+    color: coral;
+    font: {
+        style: italic;
+        size: 5em;;
+        family: sans-serif
+        
+     }
+    text-align: center;
+    
+    }  
+
+header{
+    background-color: rgb(185, 138, 247);
+
+}
+p{
+    font: {
+        style: italic;
+        size: 1em;;
+        family: sans-serif
+     
+    }
+}
+footer{
+    background-color: rgb(185, 138, 247)
+}
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 10px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+  
+
+  
+  .imagen {
+    flex-basis: 40%
+    
+  }
+  
+  .textoSobre {
+    font-size: 20px;
+    padding-left: 20px;
+  }
